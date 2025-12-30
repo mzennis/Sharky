@@ -1,4 +1,4 @@
-package id.mzennis.sample.home
+package id.mzennis.sharky.home
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -17,8 +17,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import id.mzennis.sample.auth.PasskeyBottomSheet
-import id.mzennis.sample.ui.theme.SampleAuthenticationTheme
+import id.mzennis.sharky.auth.PasskeyBottomSheet
+import id.mzennis.sharky.ui.theme.SampleAuthenticationTheme
 
 @Composable
 fun HomeScreen() {

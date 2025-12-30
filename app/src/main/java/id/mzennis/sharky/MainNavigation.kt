@@ -1,4 +1,4 @@
-package id.mzennis.sample
+package id.mzennis.sharky
 
 // ... other imports
 import androidx.compose.runtime.Composable
@@ -8,9 +8,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import id.mzennis.sample.home.HomeScreen
-import id.mzennis.sample.auth.SignInScreen
-import id.mzennis.sample.auth.SignUpScreen
+import id.mzennis.sharky.home.HomeScreen
+import id.mzennis.sharky.auth.SignInScreen
+import id.mzennis.sharky.auth.SignUpScreen
 
 object AppDestinations {
     const val SPLASH_ROUTE = "splash"

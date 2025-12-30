@@ -1,4 +1,4 @@
-package id.mzennis.sample
+package id.mzennis.sharky
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

@@ -1,4 +1,4 @@
-package id.mzennis.sample.auth
+package id.mzennis.sharky.auth
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement

@@ -1,4 +1,4 @@
-package id.mzennis.sample
+package id.mzennis.sharky
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import id.mzennis.sample.ui.theme.SampleAuthenticationTheme
+import id.mzennis.sharky.ui.theme.SampleAuthenticationTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

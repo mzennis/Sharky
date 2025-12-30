@@ -1,4 +1,4 @@
-package id.mzennis.sample.auth
+package id.mzennis.sharky.auth
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -31,8 +31,8 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import id.mzennis.sample.R
-import id.mzennis.sample.ui.theme.SampleAuthenticationTheme
+import id.mzennis.sharky.R
+import id.mzennis.sharky.ui.theme.SampleAuthenticationTheme
 
 @Composable
 fun SignInScreen(

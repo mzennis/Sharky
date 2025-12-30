@@ -1,4 +1,4 @@
-package id.mzennis.sample
+package id.mzennis.sharky
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

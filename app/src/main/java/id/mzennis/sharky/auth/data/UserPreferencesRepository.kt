@@ -1,4 +1,4 @@
-package id.mzennis.sample.auth.data
+package id.mzennis.sharky.auth.data
 
 import android.content.Context
 import androidx.datastore.core.DataStore

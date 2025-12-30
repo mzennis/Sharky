@@ -1,4 +1,4 @@
-package id.mzennis.sample.ui.theme
+package id.mzennis.sharky.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

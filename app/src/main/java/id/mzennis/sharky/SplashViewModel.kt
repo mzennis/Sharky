@@ -1,9 +1,9 @@
-package id.mzennis.sample
+package id.mzennis.sharky
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import id.mzennis.sample.auth.data.UserPreferencesRepository
+import id.mzennis.sharky.auth.data.UserPreferencesRepository
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map

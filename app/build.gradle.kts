@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "id.mzennis.sample"
+    namespace = "id.mzennis.sharky"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "id.mzennis.sample"
+        applicationId = "id.mzennis.sharky"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
