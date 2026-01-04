@@ -1,6 +1,5 @@
 package id.mzennis.sharky
 
-// ... other imports
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -26,7 +25,7 @@ fun MainNavigation(
 ) {
     NavHost(
         navController = navController,
-        startDestination = AppDestinations.SPLASH_ROUTE, // Start with the splash screen
+        startDestination = AppDestinations.SPLASH_ROUTE,
         modifier = modifier
     ) {
         composable(AppDestinations.SPLASH_ROUTE) {
@@ -74,7 +73,7 @@ fun MainNavigation(
                         popUpTo(AppDestinations.SIGNIN_ROUTE) { inclusive = true }
                     }
                 },
-                onGoogleSignUpClick = {
+                onSignUpSuccess = {
                     mainViewModel.onSignInSuccess()
                     navController.navigate(AppDestinations.HOME_ROUTE) {
                         popUpTo(AppDestinations.SIGNIN_ROUTE) { inclusive = true }
