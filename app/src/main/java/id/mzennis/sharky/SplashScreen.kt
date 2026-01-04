@@ -23,11 +23,9 @@ fun SplashScreen(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        // Show a loading indicator while checking the state
         CircularProgressIndicator()
     }
 
-    // This block will be re-executed when uiState changes
     LaunchedEffect(uiState) {
         when (val state = uiState) {
             is SplashUiState.Loading -> {
