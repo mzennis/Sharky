@@ -17,11 +17,13 @@ val localProperties = Properties().apply {
 android {
     signingConfigs {
         create("release") {
-            storeFile =
-                file("\"${localProperties.getProperty("KEYSTORE_FILE_PATH", "")}\"")
-            storePassword = "\"${localProperties.getProperty("KEYSTORE_PASSWORD", "")}\""
-            keyAlias = "\"${localProperties.getProperty("KEYSTORE_ALIAS", "")}\""
-            keyPassword = "\"${localProperties.getProperty("KEYSTORE_PASSWORD", "")}\""
+            val keystorePath = localProperties.getProperty("KEYSTORE_FILE_PATH", "")
+            if (keystorePath.isNotEmpty()) {
+                storeFile = rootProject.file(keystorePath)
+                storePassword = localProperties.getProperty("KEYSTORE_PASSWORD", "")
+                keyAlias = localProperties.getProperty("KEYSTORE_ALIAS", "")
+                keyPassword = localProperties.getProperty("KEYSTORE_PASSWORD", "")
+            }
         }
     }
     namespace = "id.mzennis.sharky"
